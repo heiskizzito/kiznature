@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+.nav-logo img{
+    width: 15%;
+}
+
+.nav-house{
+    display: flex;
+}
+header {
+    background-image:url(images/Mask.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 90vh;
+    border-bottom: 10px solid #303030;
+    /* margin-top: 20px; */
+}
+.place {
+    display: flex;
+    gap: 60px;
+    margin: 0 55px;
+    padding-top: 25px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav ul li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.order-now {
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(163, 157, 145);
+    &:hover {
+        background: black;
+}
+    
+}
+.sign-up {
+    padding: 2px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(163, 157, 145); 
+    &:hover {
+        background: black;
+    }
+}
+.recent {
+margin-top: 90px;
+text-align: center;
+}
+.shop-now {
+    background-color: black;
+    color: white;
+    padding: 10px 84px;
+    margin-top: 120px;
+    &:hover {
+        background: gray;
+    }
+}
+      
+
+.section-1{
+    background-image:url(images/Image\ \(9\).png) ;
+    background-color:#303030 ;
+    background-position: bottom;
+    height: 80vh;
+    padding: 110px;
+    background-size: cover;
+    color: white;
+    border-width: 25px;
+    border-bottom: 10px solid #303030;
+}
+.section-2{
+    background-image:url(images/Background\ \(7\).png);
+    height: 90vh;
+    padding: 110px;
+    background-size: cover;
+    color: white;
+    border-width: 25px;
+    border-bottom: 10px solid #303030 
+}
+.section-3{
+    background-image:url(images/Background\ \(5\).png);
+    background-color: darkslategrey;
+    height: 90vh;
+    padding: 110px;
+    background-size: cover;
+    color: white;
+    border-width: 25px;
+    border-bottom: 10px solid #303030 
+}
+.section-4{
+    background-image:url(images/Background\ \(6\).png);
+    background-color: #303030;
+    height: 90vh;
+    padding: 110px;
+    background-size: cover;
+    color: white;
+    border-width: 25px;
+    border-bottom: 10px solid #303030 
+}
+.section-4 h3 {
+    color: black;
+    margin-left: 300px;
+}
+.section-2 h1{
+    margin-left: 0;
+}
+.section-4 h1 {
+    color: black;
+    margin-left: 300px;
+}
+.section-1button {
+    background-color: transparent;
+    border-color: rgb(243, 234, 234);
+    padding: 15px 54px;
+    margin-top: 200px;
+    margin-left: 80px;
+    color: white;
+    
+}
+.section-2button{
+    background-color: transparent;
+    border-color: rgb(243, 234, 234);
+    padding: 15px 54px;
+    margin-top: 100px;
+    margin-left: 30px;
+    color: rgb(252, 247, 247);
+}
+.section-3button {
+    background-color: transparent;
+    border-color: rgb(243, 234, 234);
+    padding: 15px 54px;
+    margin-top: 100px;
+    margin-left: 30px;
+    color: white;
+}
+.section-4button {
+    background-color: transparent;
+    border-color: rgb(243, 234, 234);
+    padding: 15px 54px;
+    margin-top: 100px;
+    margin-left: 300px;
+    color: white;
+
+
+}
+
+.section-1 h3{
+    margin-left: 600px;
+}
+.section-1 h1{
+    margin-left: 600px;
+}
+.FAQ{
+
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.FAQ h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 70%;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+  display: flex;  
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background:#303030 ;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position:absolute;
+    right:20px;
+    transition: transform 0.25s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    font-size: 15px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.25s;
+}
+.accordion input[type="radio"]:checked + label +
+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + 
+label::after{
+    transform:rotate(135deg);
+}
+.feg .email-signup{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+.faq small{
+    font-size: 13px;
+}
+
+.footer-section{
+    margin: 0 80px;
+    display: flex;
+    gap: 190px;
+    margin-left: -30px;
+    margin-top: 70px;
+}
+.question p {
+    font-weight: 100;
+    padding: 10px;
+    font-size: 20px;
+}
+.help p{
+    font-weight: 100;
+    padding: 10px;
+    font-size: 20px;
+}
+.account p{
+    font-weight: 100;
+    padding: 10px;
+    font-size: 20px;
+
+        
+}
+@media screen and (max-width:992px) {
+header {
+    width: 100%;
+}
+nav ul {
+    display: block;
+}
+.place {
+    display: block;
+    margin: 0 0;
+}
+.section-1 h3{
+   margin-left: -41px;
+}
+.section-1 h1 {
+    margin-left: -44px;
+}
+.order-now {
+    margin-top: 20px;
+}
+.sign-up {
+    margin-top: 20px;
+}
+.recent h1 {
+    margin-right: 64px;
+    
+}
+.recent h3 {
+ margin-right: 50px;
+}
+.shop-now {
+    margin-right: 70px;
+}
+.section-1button{
+    margin-top: 162px;
+    margin-left: -54px;
+}
+.section-2 h1 {
+    margin-left: -54px;
+    font-size: 19px;
+    text-align: center;
+}
+.section-2button {
+    margin-left: -50px;
+}
+.section-3 h3 {
+    margin-left: -52px;
+}
+.section-3 h1 {
+    margin-left: -39px;
+}
+.section-3button {
+    margin-left: -39px;
+}
+.section-4 h1 {
+    margin-left: -48px;
+    font-size: 29px;
+    width: 179%;
+}
+.section-4 h3 {
+    margin-left: 1px;
+}
+.section-4button {
+    
+    margin-left: -30px;
+}
+.FAQ h2 {
+    margin-left: -51px;
+}
+.accordion{
+    margin-left: 2px;
+}
+.footer-section {
+        display: block;
+        margin-left: 10px;
+        width: 101%;
+}
+label::after {
+    right: 5px;
+}
+}
+    
