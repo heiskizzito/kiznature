@@ -115,14 +115,14 @@ text-align: center;
     border-bottom: 10px solid #303030 
 }
 .section-4 h3 {
-    color: black;
+    color: rgb(230, 216, 216);
     margin-left: 300px;
 }
 .section-2 h1{
     margin-left: 0;
 }
 .section-4 h1 {
-    color: black;
+    color: rgb(206, 200, 200);
     margin-left: 300px;
 }
 .section-1button {
@@ -262,6 +262,7 @@ label::after{
 @media screen and (max-width:992px) {
 header {
     width: 100%;
+    padding: 24px;
 }
 nav ul {
     display: block;
@@ -269,6 +270,9 @@ nav ul {
 .place {
     display: block;
     margin: 0 0;
+}
+.section-1 {
+    width: 54%;
 }
 .section-1 h3{
    margin-left: -41px;
@@ -294,7 +298,10 @@ nav ul {
 }
 .section-1button{
     margin-top: 162px;
-    margin-left: -54px;
+    margin-left: -24px;
+}
+.section-2 {
+    width: 54%;
 }
 .section-2 h1 {
     margin-left: -54px;
@@ -302,7 +309,11 @@ nav ul {
     text-align: center;
 }
 .section-2button {
-    margin-left: -50px;
+    margin-left: -15px;
+    margin-top: 279px;
+}
+.section-3 {
+    width: 54%;
 }
 .section-3 h3 {
     margin-left: -52px;
@@ -311,7 +322,11 @@ nav ul {
     margin-left: -39px;
 }
 .section-3button {
-    margin-left: -39px;
+    margin-left: -9px;
+    margin-top: 200px;
+}
+.section-4 {
+    width: 54%;
 }
 .section-4 h1 {
     margin-left: -48px;
@@ -322,11 +337,32 @@ nav ul {
     margin-left: 1px;
 }
 .section-4button {
-    
-    margin-left: -30px;
+
+    margin-left: -1px;
+    margin-top: 250px;
+}
+ /* {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+} */
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.FAQ {
+    width: 96%;
+    padding: 10px 54px;
 }
 .FAQ h2 {
     margin-left: -51px;
+    font-size: 24px;
+    width: 94%;
 }
 .accordion{
     margin-left: 2px;
@@ -338,6 +374,9 @@ nav ul {
 }
 label::after {
     right: 5px;
+}
+.accordion li label {
+    padding: 20px  50px;
 }
 }
     
